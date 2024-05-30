@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --color-primary: #6741d9;
   --color-primary-light: #7950f2;
@@ -100,7 +104,7 @@ body {
   padding: 1.1rem 1.6rem;
   font-size: 1.8rem;
   border-radius: 0.7rem;
-  width: 40rem;
+  width: 250px;
   transition: all 0.3s;
   color: var(--color-text);
 

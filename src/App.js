@@ -167,7 +167,7 @@ function Search({ query, setQuery }) {
   // } ,[setQuery])
   return (
     <input
-      className="search"
+      className="search w-24 "
       type="text"
       placeholder="Search movies..."
       value={query}
@@ -178,7 +178,7 @@ function Search({ query, setQuery }) {
 }
 function NumResults({ movies }) {
   return (
-    <p className="num-results">
+    <p className="num-results hidden md:block">
       Found <strong>{movies.length}</strong> results
     </p>
   );
